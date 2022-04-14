@@ -1,0 +1,967 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		144A6695611C630D30234EDF /* Pods_SwipeView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 810AA8578BEF037580B1AB2C /* Pods_SwipeView.framework */; };
+		4A8B117809D637FB7700EC97 /* Pods_SwipeView_SwipeViewUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F76FD518C7927588D79E6FE /* Pods_SwipeView_SwipeViewUITests.framework */; };
+		5EC8EA3F280806C6001FFF8B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC8EA3E280806C6001FFF8B /* AppDelegate.swift */; };
+		5EC8EA41280806C6001FFF8B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC8EA40280806C6001FFF8B /* SceneDelegate.swift */; };
+		5EC8EA49280806C6001FFF8B /* SwipeView.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5EC8EA47280806C6001FFF8B /* SwipeView.xcdatamodeld */; };
+		5EC8EA59280806C8001FFF8B /* SwipeViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC8EA58280806C8001FFF8B /* SwipeViewTests.swift */; };
+		5EC8EA63280806C8001FFF8B /* SwipeViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC8EA62280806C8001FFF8B /* SwipeViewUITests.swift */; };
+		5EC8EA65280806C8001FFF8B /* SwipeViewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC8EA64280806C8001FFF8B /* SwipeViewUITestsLaunchTests.swift */; };
+		5EC8EAB42808093F001FFF8B /* CustomOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC8EA9D2808093E001FFF8B /* CustomOverlayView.swift */; };
+		5EC8EAB82808093F001FFF8B /* DiscoveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC8EAA52808093E001FFF8B /* DiscoveViewController.swift */; };
+		5EC8EAB92808093F001FFF8B /* DiscoverPhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC8EAA62808093E001FFF8B /* DiscoverPhotoView.swift */; };
+		5EC8EABB2808093F001FFF8B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EC8EAA82808093F001FFF8B /* Images.xcassets */; };
+		5EC8EABC2808093F001FFF8B /* BackgroundKolodaAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC8EAA92808093F001FFF8B /* BackgroundKolodaAnimator.swift */; };
+		5EC8EABE2808093F001FFF8B /* CustomKolodaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC8EAAB2808093F001FFF8B /* CustomKolodaView.swift */; };
+		5EC8EABF2808093F001FFF8B /* MatchData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC8EAAC2808093F001FFF8B /* MatchData.swift */; };
+		5EC8EAC12808093F001FFF8B /* PopBounceButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC8EAAE2808093F001FFF8B /* PopBounceButton.swift */; };
+		5EC8EAC328080940001FFF8B /* ButtonAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC8EAB02808093F001FFF8B /* ButtonAnimator.swift */; };
+		5EC8EAC428080940001FFF8B /* StoryboardInitializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC8EAB12808093F001FFF8B /* StoryboardInitializable.swift */; };
+		5EC8EAC5280809F7001FFF8B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5EC8EAA02808093E001FFF8B /* LaunchScreen.xib */; };
+		5EC8EAC7280809F7001FFF8B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EC8EAA42808093E001FFF8B /* Main.storyboard */; };
+		5EC8EACA28080CB8001FFF8B /* CustomOverlayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5EC8EA9C2808093E001FFF8B /* CustomOverlayView.xib */; };
+		8394C8628D46D76C0CCCAB18 /* Pods_SwipeViewTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E1D14559E47B67A40EC44C0 /* Pods_SwipeViewTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5EC8EA55280806C8001FFF8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5EC8EA33280806C6001FFF8B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5EC8EA3A280806C6001FFF8B;
+			remoteInfo = SwipeView;
+		};
+		5EC8EA5F280806C8001FFF8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5EC8EA33280806C6001FFF8B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5EC8EA3A280806C6001FFF8B;
+			remoteInfo = SwipeView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B951BEE795085408CAB6BE4 /* Pods-SwipeViewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwipeViewTests.release.xcconfig"; path = "Target Support Files/Pods-SwipeViewTests/Pods-SwipeViewTests.release.xcconfig"; sourceTree = "<group>"; };
+		2E1D14559E47B67A40EC44C0 /* Pods_SwipeViewTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwipeViewTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D52019B29F4289D939D42E7 /* Pods-SwipeViewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwipeViewTests.debug.xcconfig"; path = "Target Support Files/Pods-SwipeViewTests/Pods-SwipeViewTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4F76FD518C7927588D79E6FE /* Pods_SwipeView_SwipeViewUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwipeView_SwipeViewUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EC8EA3B280806C6001FFF8B /* SwipeView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwipeView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EC8EA3E280806C6001FFF8B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5EC8EA40280806C6001FFF8B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5EC8EA48280806C6001FFF8B /* SwipeView.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SwipeView.xcdatamodel; sourceTree = "<group>"; };
+		5EC8EA54280806C8001FFF8B /* SwipeViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwipeViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EC8EA58280806C8001FFF8B /* SwipeViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeViewTests.swift; sourceTree = "<group>"; };
+		5EC8EA5E280806C8001FFF8B /* SwipeViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwipeViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EC8EA62280806C8001FFF8B /* SwipeViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeViewUITests.swift; sourceTree = "<group>"; };
+		5EC8EA64280806C8001FFF8B /* SwipeViewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeViewUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5EC8EA9C2808093E001FFF8B /* CustomOverlayView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomOverlayView.xib; sourceTree = "<group>"; };
+		5EC8EA9D2808093E001FFF8B /* CustomOverlayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomOverlayView.swift; sourceTree = "<group>"; };
+		5EC8EAA02808093E001FFF8B /* LaunchScreen.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		5EC8EAA42808093E001FFF8B /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		5EC8EAA52808093E001FFF8B /* DiscoveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoveViewController.swift; sourceTree = "<group>"; };
+		5EC8EAA62808093E001FFF8B /* DiscoverPhotoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoverPhotoView.swift; sourceTree = "<group>"; };
+		5EC8EAA82808093F001FFF8B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "../../Koloda-master/Example/Koloda/Images.xcassets"; sourceTree = "<group>"; };
+		5EC8EAA92808093F001FFF8B /* BackgroundKolodaAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BackgroundKolodaAnimator.swift; path = "../../Koloda-master/Example/Koloda/BackgroundKolodaAnimator.swift"; sourceTree = "<group>"; };
+		5EC8EAAB2808093F001FFF8B /* CustomKolodaView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomKolodaView.swift; sourceTree = "<group>"; };
+		5EC8EAAC2808093F001FFF8B /* MatchData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchData.swift; sourceTree = "<group>"; };
+		5EC8EAAE2808093F001FFF8B /* PopBounceButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PopBounceButton.swift; path = "../../Koloda-master/Example/Koloda/PopBounceButton.swift"; sourceTree = "<group>"; };
+		5EC8EAB02808093F001FFF8B /* ButtonAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ButtonAnimator.swift; path = "../../Koloda-master/Example/Koloda/ButtonAnimator.swift"; sourceTree = "<group>"; };
+		5EC8EAB12808093F001FFF8B /* StoryboardInitializable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StoryboardInitializable.swift; path = "../../Koloda-master/Example/Koloda/StoryboardInitializable.swift"; sourceTree = "<group>"; };
+		5EC8EAC828080ABF001FFF8B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		810AA8578BEF037580B1AB2C /* Pods_SwipeView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwipeView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		905CD04275365679A3E166EE /* Pods-SwipeView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwipeView.debug.xcconfig"; path = "Target Support Files/Pods-SwipeView/Pods-SwipeView.debug.xcconfig"; sourceTree = "<group>"; };
+		B76FD8985A4A1CE804FB598B /* Pods-SwipeView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwipeView.release.xcconfig"; path = "Target Support Files/Pods-SwipeView/Pods-SwipeView.release.xcconfig"; sourceTree = "<group>"; };
+		DF74DE3E1D0D76258E3BCED9 /* Pods-SwipeView-SwipeViewUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwipeView-SwipeViewUITests.release.xcconfig"; path = "Target Support Files/Pods-SwipeView-SwipeViewUITests/Pods-SwipeView-SwipeViewUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F352749BADF3C9ECB968DEE8 /* Pods-SwipeView-SwipeViewUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwipeView-SwipeViewUITests.debug.xcconfig"; path = "Target Support Files/Pods-SwipeView-SwipeViewUITests/Pods-SwipeView-SwipeViewUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5EC8EA38280806C6001FFF8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				144A6695611C630D30234EDF /* Pods_SwipeView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EC8EA51280806C8001FFF8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8394C8628D46D76C0CCCAB18 /* Pods_SwipeViewTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EC8EA5B280806C8001FFF8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A8B117809D637FB7700EC97 /* Pods_SwipeView_SwipeViewUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25A95AB321C4D506728333F7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				810AA8578BEF037580B1AB2C /* Pods_SwipeView.framework */,
+				4F76FD518C7927588D79E6FE /* Pods_SwipeView_SwipeViewUITests.framework */,
+				2E1D14559E47B67A40EC44C0 /* Pods_SwipeViewTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3838B1D906FD76874A4B8061 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				905CD04275365679A3E166EE /* Pods-SwipeView.debug.xcconfig */,
+				B76FD8985A4A1CE804FB598B /* Pods-SwipeView.release.xcconfig */,
+				F352749BADF3C9ECB968DEE8 /* Pods-SwipeView-SwipeViewUITests.debug.xcconfig */,
+				DF74DE3E1D0D76258E3BCED9 /* Pods-SwipeView-SwipeViewUITests.release.xcconfig */,
+				4D52019B29F4289D939D42E7 /* Pods-SwipeViewTests.debug.xcconfig */,
+				0B951BEE795085408CAB6BE4 /* Pods-SwipeViewTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5EC8EA32280806C6001FFF8B = {
+			isa = PBXGroup;
+			children = (
+				5EC8EA3D280806C6001FFF8B /* SwipeView */,
+				5EC8EA57280806C8001FFF8B /* SwipeViewTests */,
+				5EC8EA61280806C8001FFF8B /* SwipeViewUITests */,
+				5EC8EA3C280806C6001FFF8B /* Products */,
+				3838B1D906FD76874A4B8061 /* Pods */,
+				25A95AB321C4D506728333F7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5EC8EA3C280806C6001FFF8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5EC8EA3B280806C6001FFF8B /* SwipeView.app */,
+				5EC8EA54280806C8001FFF8B /* SwipeViewTests.xctest */,
+				5EC8EA5E280806C8001FFF8B /* SwipeViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5EC8EA3D280806C6001FFF8B /* SwipeView */ = {
+			isa = PBXGroup;
+			children = (
+				5EC8EACE28080E18001FFF8B /* Business Layer */,
+				5EC8EACD28080E15001FFF8B /* Commom */,
+				5EC8EACC28080E12001FFF8B /* DataAccess Layer */,
+				5EC8EACB28080E10001FFF8B /* Presentation Layer */,
+				5EC8EAC828080ABF001FFF8B /* Info.plist */,
+				5EC8EA47280806C6001FFF8B /* SwipeView.xcdatamodeld */,
+			);
+			path = SwipeView;
+			sourceTree = "<group>";
+		};
+		5EC8EA57280806C8001FFF8B /* SwipeViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				5EC8EA58280806C8001FFF8B /* SwipeViewTests.swift */,
+			);
+			path = SwipeViewTests;
+			sourceTree = "<group>";
+		};
+		5EC8EA61280806C8001FFF8B /* SwipeViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5EC8EA62280806C8001FFF8B /* SwipeViewUITests.swift */,
+				5EC8EA64280806C8001FFF8B /* SwipeViewUITestsLaunchTests.swift */,
+			);
+			path = SwipeViewUITests;
+			sourceTree = "<group>";
+		};
+		5EC8EACB28080E10001FFF8B /* Presentation Layer */ = {
+			isa = PBXGroup;
+			children = (
+				5EC8EAD928080E90001FFF8B /* Controllers */,
+				5EC8EAD828080E8E001FFF8B /* Custom Cells */,
+				5EC8EAD728080E8B001FFF8B /* Custom Class */,
+				5EC8EAD628080E89001FFF8B /* Custom View */,
+				5EC8EAD528080E87001FFF8B /* StoryBoards */,
+			);
+			path = "Presentation Layer";
+			sourceTree = "<group>";
+		};
+		5EC8EACC28080E12001FFF8B /* DataAccess Layer */ = {
+			isa = PBXGroup;
+			children = (
+				5EC8EAD428080E7C001FFF8B /* Network Layer */,
+			);
+			path = "DataAccess Layer";
+			sourceTree = "<group>";
+		};
+		5EC8EACD28080E15001FFF8B /* Commom */ = {
+			isa = PBXGroup;
+			children = (
+				5EC8EAD228080E40001FFF8B /* Application */,
+				5EC8EAD128080E3C001FFF8B /* Constant */,
+				5EC8EAD028080E3A001FFF8B /* Helper & Extensions */,
+				5EC8EACF28080E37001FFF8B /* Resources */,
+			);
+			name = Commom;
+			sourceTree = "<group>";
+		};
+		5EC8EACE28080E18001FFF8B /* Business Layer */ = {
+			isa = PBXGroup;
+			children = (
+				5EC8EAD328080E65001FFF8B /* Model */,
+			);
+			path = "Business Layer";
+			sourceTree = "<group>";
+		};
+		5EC8EACF28080E37001FFF8B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5EC8EAA82808093F001FFF8B /* Images.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		5EC8EAD028080E3A001FFF8B /* Helper & Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5EC8EADF28080F2B001FFF8B /* UiButton */,
+				5EC8EAB12808093F001FFF8B /* StoryboardInitializable.swift */,
+				5EC8EADE28080F05001FFF8B /* Koloda */,
+			);
+			name = "Helper & Extensions";
+			sourceTree = "<group>";
+		};
+		5EC8EAD128080E3C001FFF8B /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Constant;
+			sourceTree = "<group>";
+		};
+		5EC8EAD228080E40001FFF8B /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				5EC8EA40280806C6001FFF8B /* SceneDelegate.swift */,
+				5EC8EA3E280806C6001FFF8B /* AppDelegate.swift */,
+			);
+			name = Application;
+			sourceTree = "<group>";
+		};
+		5EC8EAD328080E65001FFF8B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5EC8EAAC2808093F001FFF8B /* MatchData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5EC8EAD428080E7C001FFF8B /* Network Layer */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Network Layer";
+			sourceTree = "<group>";
+		};
+		5EC8EAD528080E87001FFF8B /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				5EC8EADB28080EB4001FFF8B /* Launch */,
+				5EC8EADA28080EAC001FFF8B /* Main */,
+			);
+			path = StoryBoards;
+			sourceTree = "<group>";
+		};
+		5EC8EAD628080E89001FFF8B /* Custom View */ = {
+			isa = PBXGroup;
+			children = (
+				5EC8EA9D2808093E001FFF8B /* CustomOverlayView.swift */,
+				5EC8EAAB2808093F001FFF8B /* CustomKolodaView.swift */,
+				5EC8EADC28080EC7001FFF8B /* CustomOverlayView */,
+			);
+			path = "Custom View";
+			sourceTree = "<group>";
+		};
+		5EC8EAD728080E8B001FFF8B /* Custom Class */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Custom Class";
+			sourceTree = "<group>";
+		};
+		5EC8EAD828080E8E001FFF8B /* Custom Cells */ = {
+			isa = PBXGroup;
+			children = (
+				5EC8EAA62808093E001FFF8B /* DiscoverPhotoView.swift */,
+			);
+			path = "Custom Cells";
+			sourceTree = "<group>";
+		};
+		5EC8EAD928080E90001FFF8B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5EC8EADD28080ED7001FFF8B /* Main */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		5EC8EADA28080EAC001FFF8B /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				5EC8EAA42808093E001FFF8B /* Main.storyboard */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		5EC8EADB28080EB4001FFF8B /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				5EC8EAA02808093E001FFF8B /* LaunchScreen.xib */,
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
+		5EC8EADC28080EC7001FFF8B /* CustomOverlayView */ = {
+			isa = PBXGroup;
+			children = (
+				5EC8EA9C2808093E001FFF8B /* CustomOverlayView.xib */,
+			);
+			path = CustomOverlayView;
+			sourceTree = "<group>";
+		};
+		5EC8EADD28080ED7001FFF8B /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				5EC8EAA52808093E001FFF8B /* DiscoveViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		5EC8EADE28080F05001FFF8B /* Koloda */ = {
+			isa = PBXGroup;
+			children = (
+				5EC8EAA92808093F001FFF8B /* BackgroundKolodaAnimator.swift */,
+			);
+			name = Koloda;
+			sourceTree = "<group>";
+		};
+		5EC8EADF28080F2B001FFF8B /* UiButton */ = {
+			isa = PBXGroup;
+			children = (
+				5EC8EAB02808093F001FFF8B /* ButtonAnimator.swift */,
+				5EC8EAAE2808093F001FFF8B /* PopBounceButton.swift */,
+			);
+			name = UiButton;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5EC8EA3A280806C6001FFF8B /* SwipeView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EC8EA68280806C8001FFF8B /* Build configuration list for PBXNativeTarget "SwipeView" */;
+			buildPhases = (
+				F18588F044E9B2222A5DAAD8 /* [CP] Check Pods Manifest.lock */,
+				5EC8EA37280806C6001FFF8B /* Sources */,
+				5EC8EA38280806C6001FFF8B /* Frameworks */,
+				5EC8EA39280806C6001FFF8B /* Resources */,
+				B7A89A9EB14C867AEFA3BD1F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwipeView;
+			productName = SwipeView;
+			productReference = 5EC8EA3B280806C6001FFF8B /* SwipeView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5EC8EA53280806C8001FFF8B /* SwipeViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EC8EA6B280806C8001FFF8B /* Build configuration list for PBXNativeTarget "SwipeViewTests" */;
+			buildPhases = (
+				4078C0DCB4819BB20F1F4561 /* [CP] Check Pods Manifest.lock */,
+				5EC8EA50280806C8001FFF8B /* Sources */,
+				5EC8EA51280806C8001FFF8B /* Frameworks */,
+				5EC8EA52280806C8001FFF8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5EC8EA56280806C8001FFF8B /* PBXTargetDependency */,
+			);
+			name = SwipeViewTests;
+			productName = SwipeViewTests;
+			productReference = 5EC8EA54280806C8001FFF8B /* SwipeViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5EC8EA5D280806C8001FFF8B /* SwipeViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EC8EA6E280806C8001FFF8B /* Build configuration list for PBXNativeTarget "SwipeViewUITests" */;
+			buildPhases = (
+				835CCFAB729EC80AF313E203 /* [CP] Check Pods Manifest.lock */,
+				5EC8EA5A280806C8001FFF8B /* Sources */,
+				5EC8EA5B280806C8001FFF8B /* Frameworks */,
+				5EC8EA5C280806C8001FFF8B /* Resources */,
+				A169C781C16AD35AB73D0407 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5EC8EA60280806C8001FFF8B /* PBXTargetDependency */,
+			);
+			name = SwipeViewUITests;
+			productName = SwipeViewUITests;
+			productReference = 5EC8EA5E280806C8001FFF8B /* SwipeViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5EC8EA33280806C6001FFF8B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					5EC8EA3A280806C6001FFF8B = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					5EC8EA53280806C8001FFF8B = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 5EC8EA3A280806C6001FFF8B;
+					};
+					5EC8EA5D280806C8001FFF8B = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 5EC8EA3A280806C6001FFF8B;
+					};
+				};
+			};
+			buildConfigurationList = 5EC8EA36280806C6001FFF8B /* Build configuration list for PBXProject "SwipeView" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5EC8EA32280806C6001FFF8B;
+			productRefGroup = 5EC8EA3C280806C6001FFF8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5EC8EA3A280806C6001FFF8B /* SwipeView */,
+				5EC8EA53280806C8001FFF8B /* SwipeViewTests */,
+				5EC8EA5D280806C8001FFF8B /* SwipeViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5EC8EA39280806C6001FFF8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EC8EAC7280809F7001FFF8B /* Main.storyboard in Resources */,
+				5EC8EACA28080CB8001FFF8B /* CustomOverlayView.xib in Resources */,
+				5EC8EABB2808093F001FFF8B /* Images.xcassets in Resources */,
+				5EC8EAC5280809F7001FFF8B /* LaunchScreen.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EC8EA52280806C8001FFF8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EC8EA5C280806C8001FFF8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4078C0DCB4819BB20F1F4561 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwipeViewTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		835CCFAB729EC80AF313E203 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwipeView-SwipeViewUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A169C781C16AD35AB73D0407 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwipeView-SwipeViewUITests/Pods-SwipeView-SwipeViewUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwipeView-SwipeViewUITests/Pods-SwipeView-SwipeViewUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwipeView-SwipeViewUITests/Pods-SwipeView-SwipeViewUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7A89A9EB14C867AEFA3BD1F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwipeView/Pods-SwipeView-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwipeView/Pods-SwipeView-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwipeView/Pods-SwipeView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F18588F044E9B2222A5DAAD8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwipeView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5EC8EA37280806C6001FFF8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EC8EABE2808093F001FFF8B /* CustomKolodaView.swift in Sources */,
+				5EC8EAC12808093F001FFF8B /* PopBounceButton.swift in Sources */,
+				5EC8EABC2808093F001FFF8B /* BackgroundKolodaAnimator.swift in Sources */,
+				5EC8EAC428080940001FFF8B /* StoryboardInitializable.swift in Sources */,
+				5EC8EAC328080940001FFF8B /* ButtonAnimator.swift in Sources */,
+				5EC8EAB82808093F001FFF8B /* DiscoveViewController.swift in Sources */,
+				5EC8EAB42808093F001FFF8B /* CustomOverlayView.swift in Sources */,
+				5EC8EA49280806C6001FFF8B /* SwipeView.xcdatamodeld in Sources */,
+				5EC8EA3F280806C6001FFF8B /* AppDelegate.swift in Sources */,
+				5EC8EABF2808093F001FFF8B /* MatchData.swift in Sources */,
+				5EC8EAB92808093F001FFF8B /* DiscoverPhotoView.swift in Sources */,
+				5EC8EA41280806C6001FFF8B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EC8EA50280806C8001FFF8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EC8EA59280806C8001FFF8B /* SwipeViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EC8EA5A280806C8001FFF8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EC8EA65280806C8001FFF8B /* SwipeViewUITestsLaunchTests.swift in Sources */,
+				5EC8EA63280806C8001FFF8B /* SwipeViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5EC8EA56280806C8001FFF8B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5EC8EA3A280806C6001FFF8B /* SwipeView */;
+			targetProxy = 5EC8EA55280806C8001FFF8B /* PBXContainerItemProxy */;
+		};
+		5EC8EA60280806C8001FFF8B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5EC8EA3A280806C6001FFF8B /* SwipeView */;
+			targetProxy = 5EC8EA5F280806C8001FFF8B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5EC8EA66280806C8001FFF8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5EC8EA67280806C8001FFF8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5EC8EA69280806C8001FFF8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 905CD04275365679A3E166EE /* Pods-SwipeView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 55RCS87A26;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwipeView/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SwipeView;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = armv7;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeRight UIInterfaceOrientationLandscapeLeft";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftuimasterclass.Screenmatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5EC8EA6A280806C8001FFF8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B76FD8985A4A1CE804FB598B /* Pods-SwipeView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 55RCS87A26;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwipeView/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SwipeView;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = armv7;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeRight UIInterfaceOrientationLandscapeLeft";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftuimasterclass.Screenmatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5EC8EA6C280806C8001FFF8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D52019B29F4289D939D42E7 /* Pods-SwipeViewTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftuimasterclass.Screenmatch.SwipeViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwipeView.app/SwipeView";
+			};
+			name = Debug;
+		};
+		5EC8EA6D280806C8001FFF8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B951BEE795085408CAB6BE4 /* Pods-SwipeViewTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftuimasterclass.Screenmatch.SwipeViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwipeView.app/SwipeView";
+			};
+			name = Release;
+		};
+		5EC8EA6F280806C8001FFF8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F352749BADF3C9ECB968DEE8 /* Pods-SwipeView-SwipeViewUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftuimasterclass.Screenmatch.SwipeViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SwipeView;
+			};
+			name = Debug;
+		};
+		5EC8EA70280806C8001FFF8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF74DE3E1D0D76258E3BCED9 /* Pods-SwipeView-SwipeViewUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftuimasterclass.Screenmatch.SwipeViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SwipeView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5EC8EA36280806C6001FFF8B /* Build configuration list for PBXProject "SwipeView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EC8EA66280806C8001FFF8B /* Debug */,
+				5EC8EA67280806C8001FFF8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EC8EA68280806C8001FFF8B /* Build configuration list for PBXNativeTarget "SwipeView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EC8EA69280806C8001FFF8B /* Debug */,
+				5EC8EA6A280806C8001FFF8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EC8EA6B280806C8001FFF8B /* Build configuration list for PBXNativeTarget "SwipeViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EC8EA6C280806C8001FFF8B /* Debug */,
+				5EC8EA6D280806C8001FFF8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EC8EA6E280806C8001FFF8B /* Build configuration list for PBXNativeTarget "SwipeViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EC8EA6F280806C8001FFF8B /* Debug */,
+				5EC8EA70280806C8001FFF8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5EC8EA47280806C6001FFF8B /* SwipeView.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5EC8EA48280806C6001FFF8B /* SwipeView.xcdatamodel */,
+			);
+			currentVersion = 5EC8EA48280806C6001FFF8B /* SwipeView.xcdatamodel */;
+			path = SwipeView.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5EC8EA33280806C6001FFF8B /* Project object */;
+}
