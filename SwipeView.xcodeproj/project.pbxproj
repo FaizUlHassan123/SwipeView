@@ -161,7 +161,6 @@
 			children = (
 				5EC8EACE28080E18001FFF8B /* Business Layer */,
 				5EC8EACD28080E15001FFF8B /* Commom */,
-				5EC8EACC28080E12001FFF8B /* DataAccess Layer */,
 				5EC8EACB28080E10001FFF8B /* Presentation Layer */,
 				5EC8EAC828080ABF001FFF8B /* Info.plist */,
 				5EC8EA47280806C6001FFF8B /* SwipeView.xcdatamodeld */,
@@ -191,19 +190,10 @@
 			children = (
 				5EC8EAD928080E90001FFF8B /* Controllers */,
 				5EC8EAD828080E8E001FFF8B /* Custom Cells */,
-				5EC8EAD728080E8B001FFF8B /* Custom Class */,
 				5EC8EAD628080E89001FFF8B /* Custom View */,
 				5EC8EAD528080E87001FFF8B /* StoryBoards */,
 			);
 			path = "Presentation Layer";
-			sourceTree = "<group>";
-		};
-		5EC8EACC28080E12001FFF8B /* DataAccess Layer */ = {
-			isa = PBXGroup;
-			children = (
-				5EC8EAD428080E7C001FFF8B /* Network Layer */,
-			);
-			path = "DataAccess Layer";
 			sourceTree = "<group>";
 		};
 		5EC8EACD28080E15001FFF8B /* Commom */ = {
@@ -267,13 +257,6 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		5EC8EAD428080E7C001FFF8B /* Network Layer */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "Network Layer";
-			sourceTree = "<group>";
-		};
 		5EC8EAD528080E87001FFF8B /* StoryBoards */ = {
 			isa = PBXGroup;
 			children = (
@@ -291,13 +274,6 @@
 				5EC8EADC28080EC7001FFF8B /* CustomOverlayView */,
 			);
 			path = "Custom View";
-			sourceTree = "<group>";
-		};
-		5EC8EAD728080E8B001FFF8B /* Custom Class */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "Custom Class";
 			sourceTree = "<group>";
 		};
 		5EC8EAD828080E8E001FFF8B /* Custom Cells */ = {
