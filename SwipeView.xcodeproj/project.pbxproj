@@ -18,16 +18,16 @@
 		5EC8EAB42808093F001FFF8B /* CustomOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC8EA9D2808093E001FFF8B /* CustomOverlayView.swift */; };
 		5EC8EAB82808093F001FFF8B /* DiscoveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC8EAA52808093E001FFF8B /* DiscoveViewController.swift */; };
 		5EC8EAB92808093F001FFF8B /* DiscoverPhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC8EAA62808093E001FFF8B /* DiscoverPhotoView.swift */; };
-		5EC8EABB2808093F001FFF8B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EC8EAA82808093F001FFF8B /* Images.xcassets */; };
-		5EC8EABC2808093F001FFF8B /* BackgroundKolodaAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC8EAA92808093F001FFF8B /* BackgroundKolodaAnimator.swift */; };
 		5EC8EABE2808093F001FFF8B /* CustomKolodaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC8EAAB2808093F001FFF8B /* CustomKolodaView.swift */; };
 		5EC8EABF2808093F001FFF8B /* MatchData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC8EAAC2808093F001FFF8B /* MatchData.swift */; };
-		5EC8EAC12808093F001FFF8B /* PopBounceButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC8EAAE2808093F001FFF8B /* PopBounceButton.swift */; };
-		5EC8EAC328080940001FFF8B /* ButtonAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC8EAB02808093F001FFF8B /* ButtonAnimator.swift */; };
-		5EC8EAC428080940001FFF8B /* StoryboardInitializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC8EAB12808093F001FFF8B /* StoryboardInitializable.swift */; };
 		5EC8EAC5280809F7001FFF8B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5EC8EAA02808093E001FFF8B /* LaunchScreen.xib */; };
 		5EC8EAC7280809F7001FFF8B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EC8EAA42808093E001FFF8B /* Main.storyboard */; };
 		5EC8EACA28080CB8001FFF8B /* CustomOverlayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5EC8EA9C2808093E001FFF8B /* CustomOverlayView.xib */; };
+		5EF3228F2D98864A00BF5330 /* ButtonAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF3228E2D98864A00BF5330 /* ButtonAnimator.swift */; };
+		5EF322912D98865A00BF5330 /* PopBounceButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF322902D98865A00BF5330 /* PopBounceButton.swift */; };
+		5EF322932D98866D00BF5330 /* StoryboardInitializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF322922D98866D00BF5330 /* StoryboardInitializable.swift */; };
+		5EF322952D98869F00BF5330 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EF322942D98869F00BF5330 /* Images.xcassets */; };
+		5EF322972D9886C400BF5330 /* BackgroundKolodaAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF322962D9886C400BF5330 /* BackgroundKolodaAnimator.swift */; };
 		8394C8628D46D76C0CCCAB18 /* Pods_SwipeViewTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E1D14559E47B67A40EC44C0 /* Pods_SwipeViewTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -68,14 +68,14 @@
 		5EC8EAA42808093E001FFF8B /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		5EC8EAA52808093E001FFF8B /* DiscoveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoveViewController.swift; sourceTree = "<group>"; };
 		5EC8EAA62808093E001FFF8B /* DiscoverPhotoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoverPhotoView.swift; sourceTree = "<group>"; };
-		5EC8EAA82808093F001FFF8B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "../../Koloda-master/Example/Koloda/Images.xcassets"; sourceTree = "<group>"; };
-		5EC8EAA92808093F001FFF8B /* BackgroundKolodaAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BackgroundKolodaAnimator.swift; path = "../../Koloda-master/Example/Koloda/BackgroundKolodaAnimator.swift"; sourceTree = "<group>"; };
 		5EC8EAAB2808093F001FFF8B /* CustomKolodaView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomKolodaView.swift; sourceTree = "<group>"; };
 		5EC8EAAC2808093F001FFF8B /* MatchData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchData.swift; sourceTree = "<group>"; };
-		5EC8EAAE2808093F001FFF8B /* PopBounceButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PopBounceButton.swift; path = "../../Koloda-master/Example/Koloda/PopBounceButton.swift"; sourceTree = "<group>"; };
-		5EC8EAB02808093F001FFF8B /* ButtonAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ButtonAnimator.swift; path = "../../Koloda-master/Example/Koloda/ButtonAnimator.swift"; sourceTree = "<group>"; };
-		5EC8EAB12808093F001FFF8B /* StoryboardInitializable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StoryboardInitializable.swift; path = "../../Koloda-master/Example/Koloda/StoryboardInitializable.swift"; sourceTree = "<group>"; };
 		5EC8EAC828080ABF001FFF8B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EF3228E2D98864A00BF5330 /* ButtonAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonAnimator.swift; sourceTree = "<group>"; };
+		5EF322902D98865A00BF5330 /* PopBounceButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopBounceButton.swift; sourceTree = "<group>"; };
+		5EF322922D98866D00BF5330 /* StoryboardInitializable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardInitializable.swift; sourceTree = "<group>"; };
+		5EF322942D98869F00BF5330 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5EF322962D9886C400BF5330 /* BackgroundKolodaAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundKolodaAnimator.swift; sourceTree = "<group>"; };
 		810AA8578BEF037580B1AB2C /* Pods_SwipeView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwipeView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		905CD04275365679A3E166EE /* Pods-SwipeView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwipeView.debug.xcconfig"; path = "Target Support Files/Pods-SwipeView/Pods-SwipeView.debug.xcconfig"; sourceTree = "<group>"; };
 		B76FD8985A4A1CE804FB598B /* Pods-SwipeView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwipeView.release.xcconfig"; path = "Target Support Files/Pods-SwipeView/Pods-SwipeView.release.xcconfig"; sourceTree = "<group>"; };
@@ -228,7 +228,7 @@
 		5EC8EACF28080E37001FFF8B /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				5EC8EAA82808093F001FFF8B /* Images.xcassets */,
+				5EF322942D98869F00BF5330 /* Images.xcassets */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -236,8 +236,8 @@
 		5EC8EAD028080E3A001FFF8B /* Helper & Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				5EF322922D98866D00BF5330 /* StoryboardInitializable.swift */,
 				5EC8EADF28080F2B001FFF8B /* UiButton */,
-				5EC8EAB12808093F001FFF8B /* StoryboardInitializable.swift */,
 				5EC8EADE28080F05001FFF8B /* Koloda */,
 			);
 			name = "Helper & Extensions";
@@ -351,7 +351,7 @@
 		5EC8EADE28080F05001FFF8B /* Koloda */ = {
 			isa = PBXGroup;
 			children = (
-				5EC8EAA92808093F001FFF8B /* BackgroundKolodaAnimator.swift */,
+				5EF322962D9886C400BF5330 /* BackgroundKolodaAnimator.swift */,
 			);
 			name = Koloda;
 			sourceTree = "<group>";
@@ -359,8 +359,8 @@
 		5EC8EADF28080F2B001FFF8B /* UiButton */ = {
 			isa = PBXGroup;
 			children = (
-				5EC8EAB02808093F001FFF8B /* ButtonAnimator.swift */,
-				5EC8EAAE2808093F001FFF8B /* PopBounceButton.swift */,
+				5EF322902D98865A00BF5330 /* PopBounceButton.swift */,
+				5EF3228E2D98864A00BF5330 /* ButtonAnimator.swift */,
 			);
 			name = UiButton;
 			sourceTree = "<group>";
@@ -475,8 +475,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5EC8EAC7280809F7001FFF8B /* Main.storyboard in Resources */,
+				5EF322952D98869F00BF5330 /* Images.xcassets in Resources */,
 				5EC8EACA28080CB8001FFF8B /* CustomOverlayView.xib in Resources */,
-				5EC8EABB2808093F001FFF8B /* Images.xcassets in Resources */,
 				5EC8EAC5280809F7001FFF8B /* LaunchScreen.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -606,13 +606,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				5EC8EABE2808093F001FFF8B /* CustomKolodaView.swift in Sources */,
-				5EC8EAC12808093F001FFF8B /* PopBounceButton.swift in Sources */,
-				5EC8EABC2808093F001FFF8B /* BackgroundKolodaAnimator.swift in Sources */,
-				5EC8EAC428080940001FFF8B /* StoryboardInitializable.swift in Sources */,
-				5EC8EAC328080940001FFF8B /* ButtonAnimator.swift in Sources */,
+				5EF322932D98866D00BF5330 /* StoryboardInitializable.swift in Sources */,
+				5EF322912D98865A00BF5330 /* PopBounceButton.swift in Sources */,
 				5EC8EAB82808093F001FFF8B /* DiscoveViewController.swift in Sources */,
 				5EC8EAB42808093F001FFF8B /* CustomOverlayView.swift in Sources */,
+				5EF3228F2D98864A00BF5330 /* ButtonAnimator.swift in Sources */,
 				5EC8EA49280806C6001FFF8B /* SwipeView.xcdatamodeld in Sources */,
+				5EF322972D9886C400BF5330 /* BackgroundKolodaAnimator.swift in Sources */,
 				5EC8EA3F280806C6001FFF8B /* AppDelegate.swift in Sources */,
 				5EC8EABF2808093F001FFF8B /* MatchData.swift in Sources */,
 				5EC8EAB92808093F001FFF8B /* DiscoverPhotoView.swift in Sources */,
